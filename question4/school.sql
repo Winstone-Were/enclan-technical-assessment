@@ -41,7 +41,7 @@ CREATE TABLE enrollments (
 -- ---------------------------------------------------------------
 
 INSERT INTO students (first_name, last_name, email) VALUES
-('Winstone', 'Kamau',  'wanjiku@school.ac.ke'),
+('Winstone', 'Were',  'winstone@school.ac.ke'),
 ('Brian',   'Otieno', 'brian@school.ac.ke'),
 ('Amina',   'Hassan', 'amina@school.ac.ke');
 
@@ -49,7 +49,7 @@ INSERT INTO courses (course_name, course_code) VALUES
 ('Introduction to Programming', 'CS101'),
 ('Database Systems',            'CS202');
 
--- Wanjiku and Amina take Intro to Programming; Brian takes Database Systems.
+-- Winstone and Amina take Intro to Programming; Brian takes Database Systems.
 -- Brian should NOT appear in the answer query result.
 INSERT INTO enrollments (student_id, course_id, enrollment_date) VALUES
 (1, 1, '2026-01-10'),

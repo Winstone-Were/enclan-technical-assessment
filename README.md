@@ -38,7 +38,7 @@ python manage.py runserver
 
 Then open the interactive API docs at:
 
-**http://127.0.0.1:8000/api/docs/**
+**http://127.0.0.1:8000/api/docs**
 
 ### Testing the API from the docs
 
